@@ -1,0 +1,229 @@
+
+header{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.145);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header img{
+    height: 70px;
+}
+
+header img:hover {
+    animation: zoom 1s infinite alternate;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+    color: #EA3788;
+    font-weight: 600;
+}
+
+nav span:nth-child(2){
+    margin: 0 35px;
+}
+
+span{
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 50%; 
+    width: 0;
+    height: 3px; 
+    background-color: #EA3788;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+span:hover {
+    color: #EA3788;
+}
+
+span:hover::after {
+    width: 100%; 
+}
+
+span:active{
+    opacity: 0.8;
+}
+
+
+.LandingPage__login-btn,
+.Landing__signup-btn{
+    font-size: 1.2rem;
+    width: 130px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.LandingPage__login-btn{
+    background-color: #EA3788;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.Landing__signup-btn{
+    border: 2px solid #EA3788;
+    background-color: #fff;
+    color: #EA3788;
+    padding: 8px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.Landing__signup-btn:hover{
+    color: #fff;
+    background-color: #e4438b;
+}
+
+.Landing__signup-btn:focus,
+.LandingPage__login-btn:focus{
+    outline: none;
+}
+
+.Landing__signup-btn:active,
+.LandingPage__login-btn:active{
+    opacity: 0.8;
+}
+
+
+
+/* main content */
+main{
+    display: flex;
+    margin-top: 50px;
+    height: 93vh;
+    padding:  0 0 0 40px;
+    overflow: hidden;
+}
+
+
+/* left container */
+.LandingPage__left-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px 20px 20px 50px;
+}
+
+.LandingPage__left-container h1 {
+    font-size: 70px;
+}
+
+.LandingPage__left-container h1 span{
+    color: #EA3788;
+    font-size: 70px;
+}
+
+.LandingPage__left-container p{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+.LandingPage__view-recipes-btn{
+    font-size: 1.2rem;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #EA3788;
+    color: #fff;
+    padding: 12px 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    animation: zoom 1s infinite alternate;
+}
+
+.LandingPage__view-recipes-btn img{
+    width: 23px;
+}
+
+.LandingPage__view-recipes-btn:active{
+    opacity: 0.8;
+}
+
+
+
+
+/* right container */
+.LandingPage__right-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+}
+
+.LandingPage__circle{
+    position: absolute;
+    right: -30%;
+    width: 90%;
+    height: 120%;
+    border-radius: 50% 0 0 50%;
+    background-color: #EA3788;
+}
+
+
+/* food content */
+.LandingPage__image-food-1{
+    position: absolute;
+    top: 3%;
+    right: 41%;
+    z-index: 12;
+    width: 150px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
+}
+
+.LandingPage__image-food-2{
+    position: absolute;
+    top: 29%;
+    right: 41%;
+    z-index: 12;
+    width: 300px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
+}
+
+.LandingPage__image-food-3{
+    position: absolute;
+    bottom: 0%;
+    right: 41%;
+    z-index: 12;
+    width: 150px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
+}
