@@ -8,3 +8,4 @@ loginBtn.addEventListener("click", ()=>{
 registerBtn.addEventListener('click', ()=>{
     window.location.href = "SignUp.html";
 });
+
