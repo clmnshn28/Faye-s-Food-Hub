@@ -29,4 +29,4 @@ cd
 ### 3️⃣ Done! Your resume should now be live in the browser.
 
 ## 🔎 Overview 
-![alt text](images/image.png)
+![alt text](assets/images/readme.png)
