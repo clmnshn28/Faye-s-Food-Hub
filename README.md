@@ -19,7 +19,7 @@ It’s designed as a food catalog system that displays multiple recipe categorie
 ### 1️⃣ Clone the Repository
 ```bash
 https://github.com/clmnshn28/Faye-s-Food-Hub.git
-cd
+cd Faye-s-Food-Hub
 ```
 ### 2️⃣ Start Live Server in VS Code
 - If installed: Right-click `index.html` → "Open with Live Server".
