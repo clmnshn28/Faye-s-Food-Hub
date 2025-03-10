@@ -39,16 +39,17 @@ nav{
 }
 
 nav span:nth-child(2){
-    margin: 0 35px;
+    margin: 0 55px;
 }
 
-span{
+nav span{
     font-size: 1.2rem;
+    font-weight: bold;
     cursor: pointer;
     position: relative;
 }
 
-span::after {
+nav span::after {
     content: '';
     position: absolute;
     bottom: -2px; 
@@ -60,15 +61,15 @@ span::after {
     transform: translateX(-50%);
 }
 
-span:hover {
+nav span:hover {
     color: #EA3788;
 }
 
-span:hover::after {
+nav span:hover::after {
     width: 100%; 
 }
 
-span:active{
+nav span:active{
     opacity: 0.8;
 }
 
@@ -201,29 +202,41 @@ main{
 
 
 /* food content */
-.LandingPage__image-food-1{
+.LandingPage__image-food-wrapper{
     position: absolute;
+    z-index: 12;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
+}
+
+.LandingPage__image-food-1{
     top: 3%;
     right: 41%;
-    z-index: 12;
     width: 150px;
-    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
 }
 
 .LandingPage__image-food-2{
-    position: absolute;
     top: 29%;
     right: 41%;
-    z-index: 12;
     width: 300px;
-    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
 }
 
 .LandingPage__image-food-3{
-    position: absolute;
     bottom: 0%;
     right: 41%;
-    z-index: 12;
     width: 150px;
-    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.8));
+}
+
+.LandingPage__image-food-spin{
+    width: 100%;
+    display: block;
+    animation: spin-hero-image 70s linear infinite;
+}
+
+@keyframes spin-hero-image {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
