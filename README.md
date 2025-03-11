@@ -26,7 +26,7 @@ cd Faye-s-Food-Hub
 - If not installed:
     - Go to Extensions tab (Ctrl + Shift + X).
     - Search for "**Live Server**" (by Ritwick Dey), install it, then run "Open with Live Server".
-### 3️⃣ Done! Your resume should now be live in the browser.
+### 3️⃣ Done! The system should now be live in the browser.
 
 ## 🔎 Overview 
 ![alt text](assets/images/readme.png)
