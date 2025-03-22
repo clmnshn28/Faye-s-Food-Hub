@@ -2,13 +2,13 @@
 
 /* main content */
 
-.Login__main-content{
+.SignUp__main-content{
     display: flex;
     height: 100vh;
 }
 
 /* left side */
-.Login__left-container{
+.SignUp__left-container{
     flex: 1;
     background-color: #EA3788;
     display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.Login__left-container img{
+.SignUp__left-container img{
     width: 60%;
     max-width: 750px;
     animation: floatUpDown 4s ease-in-out infinite;
@@ -37,36 +37,37 @@
 }
 
 /* right side */
-.Login__right-container{
+.SignUp__right-container{
     flex: 1;
     padding: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    overflow-y: auto;
 }
 
 
 /* header */
-.Login__right-container h2 {
+.SignUp__right-container h2 {
     color: #EA3788;
-    font-size: 62px;
+    font-size: 46px;
     margin-bottom: 8px;
 }
 
-.Login__desc{
+.SignUp__desc {
     margin-bottom: 50px;
     font-size: 20px;
     color: #555;
 }
 
 /* form */
-.Login__form{
+.SignUp__form{
     /* background-color: #6a6a6a */
     width: 75%;
 }
 
-.Login__input-group{
+.SignUp__input-group{
     position: relative;
     margin-bottom: 30px;
 }
@@ -75,7 +76,7 @@
     margin-bottom: 15px;
 }
 
-.Login__input-group input {
+.SignUp__input-group input {
     width: 100%;
     box-sizing: border-box;
     font-size: 15px;
@@ -86,7 +87,7 @@
     font-family: "Poppins", sans-serif;
 }
   
-.Login__input-group label {
+.SignUp__input-group label {
     position: absolute;
     left: 60px;
     top: 50%;
@@ -97,7 +98,7 @@
     transition: 0.3s;
 }
 
-.Login__username-icon {
+.SignUp__username-icon {
     width: 35px;
     position: absolute;
     left: 17px;
@@ -105,7 +106,7 @@
     transform: translateY(-50%);
 }
 
-.Login__password-icon {
+.SignUp__password-icon {
     width: 29px;
     position: absolute;
     left: 20px;
@@ -114,8 +115,8 @@
 }
 
   
-.Login__input-group input:focus + label,
-.Login__input-group input:not(:placeholder-shown) + label {
+.SignUp__input-group input:focus + label,
+.SignUp__input-group input:not(:placeholder-shown) + label {
     top: 2px;
     font-size: 13px;
     color: #6a6a6a;
@@ -130,26 +131,48 @@ input:focus {
 }
  
 
-.Login__eye-icon{
-    width: 25px;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    cursor: pointer;
+/* password requirements */
+.SignUp__password-requirements{
+    margin: 20px 10px 10px;
 }
 
-/* forgot pass */
-.Login__forgot-password {
-    color: #f3479c;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 25px;
+.SignUp__password-requirements p {
     font-size: 14px;
+    font-weight: bold;
+    color: #565252;
+    margin: 0;
 }
 
-/* login btn */
-.Login__home-button {
+.SignUp__password-requirements ul{
+    margin: 0;
+    margin-bottom: 10px;
+    padding:6px 0px;
+    list-style: none;
+}
+  
+.SignUp__password-requirements li{
+    font-size: 12px;
+    font-weight: 500;
+    color: #565252;
+    margin: 0;
+}
+
+.wrong{
+    color: red;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-right: 3px;
+}
+  
+.check{
+    color: rgb(9, 185, 9);
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-right: 3px;
+}
+
+/* sign up btn */
+.SignUp__home-button {
     width: 100%;
     padding: 15px;
     background-color: #f3479c;
@@ -158,50 +181,31 @@ input:focus {
     font-size: 22px;
     font-weight: 600;
     cursor: pointer;
-    margin: 20px 0 40px;
+    margin: 20px 0 70px;
     transition: all 1s;
 }
   
-.Login__home-button:hover {
+.SignUp__home-button:hover {
     background-color: #d63c89;
 }
 
-.Login__home-button:active {
+.SignUp__home-button:active {
     opacity: 0.8;
 }
 
 
-/* .Login__register-button {
-    width: 100%;
-    padding: 15px;
-    border: 2px solid #f3479c;
-    background-color: transparent;
-    color: #f3479c;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 1s;
-}
-  
-.Login__register-button:hover {
-    background-color: #f3479c;
-    color: white;
-}
-   */
-
-
-.Login__redirect-text {
+.SignUp__redirect-text {
     text-align: center;
-    margin-top: 25px;
     font-size: 17px;
     color: #333;
 }
 
-.Login__register-link {
+.SignUp__register-link {
     color: #ea3788;
     font-weight: 500;
     text-decoration: none;
 }
 
-.Login__register-link:hover {
+.SignUp__register-link:hover {
     text-decoration: underline;
 }

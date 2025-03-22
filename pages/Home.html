@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Faye's Home Made Foods</title>
-    <script src="../assets/js/include.js" defer></script>
-</head>
-<body>
-    <h1>Home</h1>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home | Faye's Home Made Foods</title>
+        <link rel="stylesheet" href="../assets/css/index.css" />
+        <link rel="stylesheet" href="../assets/css/Home.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+        <script src="../assets/js/include.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="../assets/images/logo.png" alt="Logo" />
+            <div class="nav-container">
+                <nav>
+                  <a href="#" class="active">Home</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Contact</a>
+                  <a href="#">Gallery</a>
+                </nav>
+                <img  class="profile-icon" src="../assets/images/profile-icon.svg" alt="profile-icon">
+            </div>
+        </header>
+
+        <section class="Home__hero">
+            <h1>Cook with Love, Eat with Joy!</h1>
+            <div class="Home__home-linear-text">
+                <div class="Home__home-linear-text-content">
+                    <span>Best homemade food in town! Tastes just like mom's cooking. Best homemade food in town! Tastes just like mom's cooking. </span>
+                    <span>Best homemade food in town! Tastes just like mom's cooking. Best homemade food in town! Tastes just like mom's cooking. </span>
+                    <span>Best homemade food in town! Tastes just like mom's cooking. Best homemade food in town! Tastes just like mom's cooking. </span>
+                    <span>Best homemade food in town! Tastes just like mom's cooking. Best homemade food in town! Tastes just like mom's cooking. </span>
+                </div>
+            </div>
+            <div class="Home__hero-images">
+              <img src="../assets/images/home-hero1-image.png" alt="Pasta" />
+              <img src="../assets/images/home-hero2-image.png" alt="Pasta" />   
+            </div>
+        </section>
+
+        <section class="Home__recipe-container">
+            <div class="Home__recipe-header-container">
+                <h2 class="Home__recipe-title">
+                    Famous 
+                    <span>Recipes</span>
+                    <img src="../assets/images/line-recipe-header.png" alt="line">
+                </h2>
+                <button class="Home__show-more-btn">
+                    Show More
+                </button>
+            </div>
+
+            <div class="Home__recipe-list">
+                <!-- adobo -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/adobo.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Pork Adobo</h3>
+                    <p class="Home__recipe-item-description">
+                        A classic Filipino dish made with pork braised in a savory, slightly tangy soy sauce and vinegar mixture.
+                    </p>
+                </div>
+
+                <!-- spaghetti -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/spaghetti.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Filipino-Style Spaghetti</h3>
+                    <p class="Home__recipe-item-description">
+                        A classic pasta dish made with a rich tomato-based sauce, ground meat, and herbs
+                    </p>
+                </div>
+
+                <!-- menudo -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/menudo.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Menudo</h3>
+                    <p class="Home__recipe-item-description">
+                        A Filipino stew made with pork, liver, potatoes, and carrots in a rich tomato sauce.
+                    </p>
+                </div>
+
+                <!-- carbonara -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/carbonara.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Filipino-Style Carbonara</h3>
+                    <p class="Home__recipe-item-description">
+                        A creamy, slightly sweet pasta dish made with ham, bacon, and evaporated milk instead of the traditional egg-based sauce.
+                    </p>
+                </div>
+
+                <!-- Bulalo -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/bulalo.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Bulalo</h3>
+                    <p class="Home__recipe-item-description">
+                        A rich and comforting Filipino soup made with beef shank, bone marrow, and vegetables.
+                    </p>
+                </div>
+
+                <!-- Sinampalikan -->
+                <div class="Home__recipe-item">
+                    <div class="Home__recipe-image-container">
+                        <img class="Home__main-recipe-image" src="../assets/images/sinampalukan.png" alt="Adobo">
+                        <span class="Home__favorite-container">
+                            <img class="Home__favorite-icon" src="../assets/images/unfilled-favorite.svg" alt="favorite">
+                        </span>
+                    </div>
+                    <h3 class="Home__recipe-item-title">Sinampalikan</h3>
+                    <p class="Home__recipe-item-description">
+                        A tangy and savory Filipino chicken soup flavored with tamarind and enriched with pechay.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer__top">
+                <div class="footer__logo-section">
+                    <img src="../assets/images/logo.png" alt="Faye's Logo" class="footer__logo" />
+                    <p class="footer__tagline">
+                      Let’s turn everyday meals into special moments—because<br />
+                      the best food is made at home.
+                    </p>
+                </div>
+                <nav class="footer__nav">
+                    <a href="#">Recipes</a>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+
+            
+            <hr class="footer__divider" />
+
+            <div class="footer__bottom">
+                <div class="footer__terms">
+                    <a href="#">Term & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer__socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
 </html>

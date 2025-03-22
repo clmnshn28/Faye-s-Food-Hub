@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Faye's Home Made Foods</title>
-    <link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="../assets/css/Login.css">
-</head>
-<body>
-    <h1>Login</h1>
-    <button id="login-home-btn">Login</button>
-    <button id="register-btn">Register</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login | Faye's Home Made Foods</title>
+        <link rel="stylesheet" href="../assets/css/index.css" />
+        <link rel="stylesheet" href="../assets/css/Login.css" />
+    </head>
+    <body>
+        <div class="Login__main-content">
+            <div class="Login__left-container">
+                <img src="../assets/images/login_image.png" alt="Login Image" />
+            </div>
+            <div class="Login__right-container">
+                <h2>Login</h2>
+                <p class="Login__desc">Sign in to your Account</p>
+                <form class="Login__form">
+                    <div class="Login__input-group">
+                        <input type="text" placeholder="" required />
+                        <label>Username</label>
+                        <img
+                            class="Login__username-icon"
+                            src="../assets/images/username-icon.svg"
+                            alt="username-icon"
+                        />
+                    </div>
+                    <div class="Login__input-group margin-none">
+                        <input type="password" placeholder="" required />
+                        <label>Password</label>
+                        <img
+                            class="Login__password-icon"
+                            src="../assets/images/password-icon.svg"
+                            alt="username-icon"
+                        />
+                        <img
+                            class="Login__eye-icon"
+                            src="../assets/images/eye-close-icon.svg"
+                            alt="eye password"
+                        />
+                    </div>
+                    <a href="#" class="Login__forgot-password"
+                        >Forgot Password?</a
+                    >
+                    <button type="submit" class="Login__home-button">
+                        Login
+                    </button>
 
-    <script src="../assets/js/Login.js"></script>
-</body>
+                    <!-- <button type="button" class="Login__register-button">
+                        Register New Account
+                    </button> -->
+                    <p class="Login__redirect-text">
+                        Don't have an account yet? <a href="SignUp.html" class="Login__register-link">Register here</a>
+                    </p>
+                    
+                </form>
+            </div>
+        </div>
+
+        <script src="../assets/js/Login.js"></script>
+    </body>
 </html>
