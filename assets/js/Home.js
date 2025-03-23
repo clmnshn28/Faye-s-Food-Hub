@@ -48,7 +48,7 @@ function updateRecipeHTML(recipes) {
           <div class="Home__recipe-image-container">
             <img 
               class="Home__main-recipe-image" 
-              src="${recipe.image || recipe.images}" 
+              src="${recipe.images}" 
               alt="${recipe.name}"
               style="cursor: pointer;"
             >
