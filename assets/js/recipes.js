@@ -77,6 +77,15 @@ function setupFavoriteIcons() {
     const favoriteIcon = document.querySelectorAll(".Recipes__favorite-icon");
     favoriteIcon.forEach(icon => {
         icon.addEventListener("click", () => {
+
+            // Add zoom effect class
+            icon.classList.add("zoom-effect");
+
+            // Remove it after animation (200ms)
+            setTimeout(() => {
+                icon.classList.remove("zoom-effect");
+            }, 200);
+
             const isFavorite = icon.getAttribute('data-favorite') === "true";
 
             if(isFavorite) {
