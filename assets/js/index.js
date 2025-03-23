@@ -9,10 +9,10 @@ loginBtn.addEventListener('click', ()=>{
 
 // signup
 signupBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/signup.html";
+    window.location.href = "pages/SignUp.html";
 });
 
 // view recipe
 viewRecipesBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/login.html";
+    window.location.href = "pages/Login.html";
 });

@@ -3,13 +3,13 @@ const loginBtn = document.getElementsByClassName("Login__home-button")[0];
 
 if (loginBtn) {
     loginBtn.addEventListener("click", () => {
-        window.location.href = "home.html";
+        window.location.href = "Home.html";
     });
 }
 
 if (registerBtn) {
     registerBtn.addEventListener("click", () => {
-        window.location.href = "signup.html";
+        window.location.href = "SignUp.html";
     });
 }
 
