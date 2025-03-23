@@ -4,7 +4,7 @@ const signupBtn = document.getElementById("signup-btn");
 
 // login 
 loginBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/login.html";
+    window.location.href = "pages/Login.html";
 });
 
 // signup
