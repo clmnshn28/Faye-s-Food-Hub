@@ -3,23 +3,46 @@
     /* background-color: aquamarine; */
     margin-top: 93px;
     padding: 60px 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    position: relative;
 }
 
+.About__shadowing{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 10px 0 15px 70px rgb(255, 255, 255, 0.945), /* left */
+    inset -30px 0 15px 90px rgba(255, 255, 255, 0.945); /* right */
+    pointer-events: none;
+}
 
 .About__team-card {
     border: 5px solid #EA3788;
     border-radius: 25px;
-    padding: 15px;
+    padding: 25px;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 20rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    width: 46rem;
+    height: 25rem;
+}
+
+.About__top-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.About__photo-container {
+    width: 11rem;
+    border: 5px solid #EA3788;
+    border-radius: 25px;
 }
 
 
+
+/* 
 .About__photo-container {
     width: 100%;
     height: auto;
@@ -27,16 +50,25 @@
     border-radius: 25px;
     display: block;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+*/
+
+.About__member-information h1{
+    font-size: 26px;
+    font-weight: bolder;
 }
 
+
 .About__member-details {
-    padding: 0 10px;
+    padding: 0;
+    margin-top: 20px;
 }
 
 .About__detail-row {
     display: flex;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .About__detail-label {
@@ -52,4 +84,38 @@
 .About__detail-value {
     flex: 1;
     font-weight: 400;
+} 
+
+
+.bottom-container p {
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 15px;
 }
+
+
+
+/* carousel */
+
+.About__carousel-outer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+
+.About__carousel-outer::-webkit-scrollbar {
+    display: none;
+}
+
+.About__container .inner {
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    width: 47rem; 
+}
+
