@@ -29,5 +29,5 @@ const registerBtn = document.getElementsByClassName("SignUp__home-button")[0];
 
 
 registerBtn.addEventListener("click", ()=>{
-    window.location.href = "Login.html";
+    window.location.href = "login.html";
 })

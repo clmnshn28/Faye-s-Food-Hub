@@ -4,15 +4,15 @@ const signupBtn = document.getElementById("signup-btn");
 
 // login 
 loginBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/Login.html";
+    window.location.href = "pages/login.html";
 });
 
 // signup
 signupBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/SignUp.html";
+    window.location.href = "pages/signup.html";
 });
 
 // view recipe
 viewRecipesBtn.addEventListener('click', ()=>{
-    window.location.href = "pages/Login.html";
+    window.location.href = "pages/login.html";
 });
