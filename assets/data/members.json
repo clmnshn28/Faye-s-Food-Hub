@@ -53,6 +53,60 @@
         "address": "Pulilan, Bulacan",
         "image": "../assets/images/Mary.png",
       "description": "Mary Rose works alongside Jendy to develop and improve the system. She assists with coding, debugging, and testing to ensure a smooth user experience. She also helps refine system features, optimize performance, and review code for quality assurance. Additionally, she collaborates with the UI/UX designer to enhance the system’s overall usability. Her role ensures that development progresses efficiently and effectively."
+    },
+    {
+      "name": "Franjealine Charize P. Villarama",
+      "position": "Project Manager",
+      "age": 20,
+      "birthday": "June 7, 2004",
+      "address": "San Rafael, Bulacan",
+      "image": "../assets/images/Franjealine.png",
+      "description": "As the Project Manager, ensures that everything runs smoothly from start to finish. She keeps the team on track by setting deadlines, coordinating tasks, and making sure the project stays within scope and budget. She also takes charge of problem-solving and risk management, ensuring any challenges are addressed promptly. Franjealine communicates with stakeholders, documents progress, and ensures that everyone understands their roles. Her leadership plays a vital role in keeping the team motivated and productive."
+    },
+    {
+      "name": "Edrialyn S. Calderon",
+      "position": "Ui/Ux Designer",
+      "age": 20,
+      "birthday": "August 12, 2004",
+      "address": "Pulilan, Bulacan",
+      "image": "../assets/images/Edrialyn.png",
+      "description": "Edrialyn is the creative mind behind the system’s design and user experience. She crafts wireframes, prototypes, and visual elements to make the interface intuitive and user-friendly. She also gathers feedback from users, conducts usability testing, and refines the design to improve accessibility and overall aesthetics. Her work ensures that the system is not only functional but also visually appealing and easy to navigate."
+    },
+    {
+      "name": "John Edward DC. Cunanan",
+      "position": "Lead Researcher",
+      "age": 21,
+      "birthday": "September 18, 2003",
+      "address": "San Rafael, Bulacan",
+      "image": "../assets/images/Edward.png",
+      "description": "John Edward is in charge of gathering and analyzing important information to guide the project. He conducts research, identifies key requirements, and ensures the system is built on solid industry standards and best practices. He also organizes findings, documents research insights, and presents valuable data to help the team make informed decisions. His work ensures that the project is well-researched and based on reliable information."
+    },
+    {
+      "name": "Legen k Kipte",
+      "position": "Asst. Researcher",
+      "age": 22,
+      "birthday": "January 26, 2003",
+      "address": "San Ildefonso, Bulacan",
+      "image": "../assets/images/Legen.png",
+      "description": "Legen supports the research process by helping John Edward collect and analyze data. Whether it’s reviewing literature, gathering user requirements, or conducting surveys, he plays a key role in ensuring research accuracy. He also assists in organizing and documenting findings, making it easier for the team to use the data effectively. His contributions help refine research methodologies and ensure a smooth research process."
+    },
+    {
+      "name": "Jendy B. Ramos",
+      "position": "Lead Programmer",
+      "age": 21,
+      "birthday": "February 18, 2004",
+      "address": "San Rafael, Bulacan",
+      "image": "../assets/images/Jendy.png",
+      "description": "Jendy is responsible for bringing the project to life through coding and system development. She builds the system’s core functionalities, debugs errors, and ensures everything runs efficiently. She also collaborates with the team to integrate features and optimize performance. Beyond coding, Jendy documents her work and provides technical support, making sure the system remains reliable and functional. Her expertise is essential in turning the team’s ideas into reality."
+    },
+    {
+        "name": "Mary Rose R. Ofiaza",
+        "position": "Asst. Programmer",
+        "age": 21,
+        "birthday": "June 1, 2003",
+        "address": "Pulilan, Bulacan",
+        "image": "../assets/images/Mary.png",
+      "description": "Mary Rose works alongside Jendy to develop and improve the system. She assists with coding, debugging, and testing to ensure a smooth user experience. She also helps refine system features, optimize performance, and review code for quality assurance. Additionally, she collaborates with the UI/UX designer to enhance the system’s overall usability. Her role ensures that development progresses efficiently and effectively."
     }
   ]
   
