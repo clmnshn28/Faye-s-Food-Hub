@@ -1,0 +1,899 @@
+{
+    "pork": [
+        {
+            "name": "Crispy Pata",
+            "description": "Deep-fried pork leg (pata) with crispy skin and tender meat, served with a soy-vinegar dipping sauce.",
+            "images": "../assets/images/crispy-pata.png",
+            "ingredients": [
+                "1 whole pork leg (pata)",
+                "1 tbsp salt",
+                "1 tbsp black peppercorns",
+                "5 cloves garlic (crushed)",
+                "3 cups water",
+                "1 bay leaf",
+                "Oil for deep frying"
+            ],
+            "instructions":[
+                "Boil pork leg with salt, peppercorns, garlic, bay leaf, and water until tender (about 1-2 hours). Drain and pat dry.",
+                "Let it rest uncovered in the fridge overnight for crispier skin.",
+                "Heat oil and deep-fry the pork leg until golden brown and crispy.",
+                "Serve hot with soy-vinegar dipping sauce."
+            ]
+        },
+        {
+            "name": "Sisig",
+            "description": "A flavorful and crispy Filipino dish made with chopped pork, onions, and spices, served sizzling hot.",
+            "images": "../assets/images/sisig.png",
+            "ingredients": [
+                "½ kg pork belly (or pork mask, ears, and liver)",
+                "1 onion (finely chopped)",
+                "3 cloves garlic (minced)",
+                "2 tbsp soy sauce",
+                "2 tbsp calamansi or lemon juice",
+                "1 tbsp mayonnaise (optional, for creaminess)",
+                "1-2 chili peppers (siling labuyo, chopped)",
+                "1 tsp black pepper",
+                "1 tsp salt",
+                "1 tbsp butter or margarine",
+                "Cooking oil"
+            ],
+            "instructions":[
+                "Boil & Grill: Boil pork in water until tender (about 30 minutes), then grill or fry until crispy. Let it cool, then chop into small pieces.",
+                "Sauté: In a pan, heat oil and sauté garlic and onions until fragrant.",
+                "Mix & Season: Add chopped pork, soy sauce, calamansi juice, black pepper, and salt. Stir well.",
+                "Add Spice: Toss in chili peppers for heat. Mix in mayonnaise for extra creaminess (optional).",
+                "Serve Hot: Transfer to a sizzling plate with butter and let it sizzle for a few seconds."
+            ]
+        },
+        {
+            "name": "Pork Adobo",
+            "description": "A classic Filipino dish made with pork braised in a savory, slightly tangy soy sauce and vinegar mixture.",
+            "images": "../assets/images/pork-adobo.png",
+            "ingredients": [
+                "½ kg pork belly or pork shoulder (cubed)",
+                "¼ cup soy sauce",
+                "¼ cup vinegar",
+                "3 cloves garlic (minced)",
+                "1 onion (chopped)",
+                "1 cup water",
+                "1 bay leaf",
+                "1 tsp whole peppercorns (or ground black pepper)",
+                "1 tbsp cooking oil",
+                "1 tsp sugar (optional, for a slightly sweet taste)"
+            ],
+            "instructions":[
+                "Marinate pork with soy sauce, garlic, and pepper for 30 minutes.",
+                "Heat oil in a pan, sauté onion, then add marinated pork and brown.",
+                "Pour in marinade, water, bay leaf, and peppercorns. Simmer for 30 minutes until pork is tender.",
+                "Add vinegar (do not stir) and cook for 10 minutes to blend flavors.",
+                "Stir, add sugar (optional), and simmer until sauce thickens and meat is flavorful.",
+                "For a richer taste, fry pork pieces separately, then return to sauce.",
+                "Serve hot with rice. Enjoy!"
+            ]
+        },
+        {
+            "name": "Lechon Kawali",
+            "description": "Crispy, deep-fried pork belly with a crunchy skin, usually served with liver sauce or vinegar.",
+            "image": "../assets/images/lechon-kawali.png",
+            "ingredients": [
+                "1 kg pork belly",
+                "1 tbsp salt",
+                "1 tbsp black peppercorns",
+                "3 cloves garlic (crushed)",
+                "4 cups water",
+                "Oil for frying"
+            ],
+            "instructions": [
+                "Boil pork belly in water with salt, pepper, and garlic until tender (about 45 minutes).",
+                "Let it dry completely, then refrigerate for at least 4 hours or overnight.",
+                "Deep-fry in hot oil until crispy and golden brown.",
+                "Serve with liver sauce or vinegar."
+            ]
+        },
+        {
+            "name": "Bopis",
+            "description": "A spicy and flavorful dish made with minced pork lungs and heart, sautéed with chilies and vinegar.",
+            "image": "../assets/images/bopis.png",
+            "ingredients": [
+                "500g pork lungs, heart, and liver (minced)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "2 tbsp vinegar",
+                "1 tbsp soy sauce",
+                "1 chili (chopped)",
+                "1 cup water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Boil pork innards until tender, then mince.",
+                "Sauté garlic and onion, then add minced pork innards.",
+                "Add vinegar, soy sauce, chili, and water. Simmer for 15 minutes.",
+                "Season with salt and pepper. Serve hot."
+            ]
+        },
+        {
+            "name": "Pochero",
+            "description": "A tomato-based pork stew with saba bananas, cabbage, green beans, and chickpeas for a slightly sweet and savory taste.",
+            "image": "../assets/images/pochero.png",
+            "ingredients": [
+                "500g pork ribs or belly",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "2 cups tomato sauce",
+                "2 saba bananas (sliced)",
+                "1 potato (cubed)",
+                "1 cabbage (quartered)",
+                "1 tbsp fish sauce",
+                "2 cups water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion, then add pork and cook until browned.",
+                "Add tomato sauce, fish sauce, and water. Simmer for 30 minutes.",
+                "Add potatoes and saba bananas. Cook until tender.",
+                "Add cabbage, season with salt and pepper, then serve."
+            ]
+        },
+        {
+            "name": "Pork Binagoongan",
+            "description": "Pork belly cooked in shrimp paste (bagoong) with tomatoes and chili, served with steamed rice.",
+            "image": "../assets/images/pork-binagoongan.png",
+            "ingredients": [
+                "500g pork belly (cubed)",
+                "2 tbsp shrimp paste (bagoong)",
+                "3 cloves garlic (minced)",
+                "1 onion (chopped)",
+                "2 tomatoes (diced)",
+                "1 chili (optional)",
+                "1 tbsp vinegar",
+                "1 cup water"
+            ],
+            "instructions": [
+                "Sauté garlic, onion, and tomatoes in a pan.",
+                "Add pork and cook until browned.",
+                "Stir in shrimp paste and vinegar, then add water. Simmer for 30 minutes.",
+                "Add chili (if using) and serve with rice."
+            ]
+        },
+        {
+            "name": "Pork Igado",
+            "description": "An Ilocano dish made with pork liver and meat, simmered in vinegar, soy sauce, and bell peppers.",
+            "image": "../assets/images/pork-igado.png",
+            "ingredients": [
+                "500g pork meat (sliced into strips)",
+                "200g pork liver (sliced into strips)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "1 bell pepper (sliced)",
+                "2 tbsp soy sauce",
+                "2 tbsp vinegar",
+                "1 cup water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion, then add pork and cook until browned.",
+                "Pour in soy sauce and water. Simmer for 20 minutes.",
+                "Add pork liver and vinegar (do not stir). Cook for 5 minutes.",
+                "Stir, add bell peppers, and season to taste. Serve hot."
+            ]
+        },
+        {
+            "name": "Dinakdakan",
+            "description": "A creamy and smoky Ilocano dish made with grilled pork parts, calamansi, and mayonnaise.",
+            "image": "../assets/images/dinakdakan.png",
+            "ingredients": [
+                "500g pork ears, face, and belly (boiled and grilled)",
+                "1 red onion (chopped)",
+                "2 cloves garlic (minced)",
+                "2 tbsp calamansi or lemon juice",
+                "3 tbsp mayonnaise",
+                "1 tsp soy sauce (optional)",
+                "1 small chili (sliced, optional)",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Boil and Grill Pork: Boil pork parts until tender, then grill until slightly charred. Chop into small pieces.",
+                "Mix Ingredients: In a bowl, combine grilled pork, onion, garlic, calamansi juice, soy sauce, and chili.",
+                "Add Creaminess: Stir in mayonnaise and mix well.",
+                "Season and Serve: Add salt and pepper to taste. Serve as an appetizer or with rice."
+            ]
+        },
+        {
+            "name": "Menudo",
+            "description": "A rich and flavorful tomato-based pork stew with potatoes, carrots, and liver.",
+            "image": "../assets/images/menudo.png",
+            "ingredients": [
+                "500g pork (cubed)",
+                "200g pork liver (cubed)",
+                "1 cup tomato sauce",
+                "1 potato, 1 carrot (cubed)",
+                "1 bell pepper (chopped)",
+                "3 cloves garlic, 1 onion (chopped)",
+                "2 tbsp soy sauce",
+                "1 cup water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion, then add pork and cook until browned.",
+                "Pour in soy sauce, tomato sauce, and water. Simmer for 30 minutes.",
+                "Add liver, potatoes, carrots, and bell pepper. Cook for 10 minutes.",
+                "Season with salt and pepper. Serve hot with rice!"
+            ]
+        }            
+    ],
+    "chicken" : [
+        {
+            "name": "Chicken Cordon Bleu",
+            "description": "A crispy, golden-fried chicken roll stuffed with ham and cheese, served with a creamy sauce.",
+            "images": "../assets/images/chicken-cordon-bleu.png",
+            "ingredients": [
+                "2 boneless chicken breasts",
+                "4 slices ham",
+                "4 slices cheese (cheddar or Swiss)",
+                "1 cup breadcrumbs",
+                "½ cup all-purpose flour",
+                "1 egg (beaten)",
+                "½ tsp salt",
+                "½ tsp black pepper",
+                "½ tsp garlic powder (optional)",
+                "Cooking oil (for frying)"
+            ],
+            "instructions":[
+                "Flatten the chicken breasts using a meat mallet or rolling pin.",
+                "Season both sides with salt, pepper, and garlic powder.",
+                "Place a slice of ham and cheese on each chicken breast, then roll tightly. Secure with toothpicks.",
+                "Dredge the rolled chicken in flour, dip in beaten egg, then coat with breadcrumbs.",
+                "Heat oil in a pan and fry until golden brown, about 4-5 minutes per side. Alternatively, bake at 180°C (350°F) for 25-30 minutes.",
+                "Let it rest for a few minutes, then slice into rounds."
+            ]
+        },
+        {
+            "name": "Sinampalukang Manok",
+            "description": "A tangy and savory Filipino chicken soup flavored with tamarind and enriched with pechay.",
+            "image": "../assets/images/sinampalukang-manok.png",
+            "ingredients": [
+                "½ kg chicken (cut into pieces)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "1 thumb-sized ginger (sliced)",
+                "2 cups water",
+                "1 cup tamarind leaves or sinigang mix",
+                "1 tomato (sliced)",
+                "1 bunch pechay",
+                "1 tbsp fish sauce (optional)",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic, onion, and ginger in a pot. Add chicken and cook until slightly browned.",
+                "Pour in water and bring to a boil. Simmer for 20-30 minutes until the chicken is tender.",
+                "Add tamarind leaves or sinigang mix and tomatoes. Cook for another 5 minutes.",
+                "Season with fish sauce, salt, and pepper.",
+                "Add pechay and let it cook for 2 minutes.",
+                "Serve hot and enjoy!"
+            ]
+        },
+        {
+            "name": "Chicken Caldereta",
+            "description": "A twist on beef caldereta, using chicken cooked in tomato sauce, liver spread, potatoes, and bell peppers.",
+            "image": "../assets/images/chicken-caldereta.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1 cup tomato sauce",
+                "2 tbsp liver spread",
+                "1 potato (cubed)",
+                "1 carrot (sliced)",
+                "1 bell pepper (sliced)",
+                "3 cloves garlic (minced)",
+                "1 onion (chopped)",
+                "1 tbsp soy sauce"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add chicken and cook until browned.",
+                "Pour in tomato sauce, liver spread, and soy sauce. Simmer for 20 minutes.",
+                "Add potatoes, carrots, and bell pepper. Cook until tender.",
+                "Serve with rice."
+            ]
+        },
+        {
+            "name": "Tinolang Manok",
+            "description": "A comforting soup with chicken, green papaya or sayote, ginger, and malunggay or chili leaves.",
+            "image": "../assets/images/tinolang-manok.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1 thumb-sized ginger (sliced)",
+                "1 onion (chopped)",
+                "5 cloves garlic (minced)",
+                "1 green papaya or sayote (sliced)",
+                "2 cups water or chicken broth",
+                "1 cup malunggay or chili leaves",
+                "1 tbsp fish sauce"
+            ],
+            "instructions": [
+                "Sauté garlic, onion, and ginger. Add chicken and cook until lightly browned.",
+                "Pour in water and bring to a boil. Simmer for 20 minutes.",
+                "Add papaya or sayote. Cook until tender.",
+                "Stir in malunggay or chili leaves and season with fish sauce. Serve hot."
+            ]
+        },
+        {
+            "name": "Chicken Adobo",
+            "description": "Chicken slow-cooked in soy sauce, vinegar, garlic, bay leaves, and black peppercorns, resulting in a savory-tangy dish.",
+            "image": "../assets/images/chicken-adobo.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1/2 cup soy sauce",
+                "1/4 cup vinegar",
+                "5 cloves garlic (minced)",
+                "1 onion (chopped)",
+                "1 tsp black peppercorns",
+                "2 bay leaves",
+                "1 cup water",
+                "1 tbsp cooking oil"
+            ],
+            "instructions": [
+                "Sauté garlic and onion in oil. Add chicken and cook until browned.",
+                "Pour in soy sauce, vinegar, and water. Add bay leaves and peppercorns.",
+                "Simmer for 30 minutes until chicken is tender.",
+                "Adjust seasoning and serve with rice."
+            ]
+        },
+        {
+            "name": "Chicken Afritada",
+            "description": "A rich stew with chicken, potatoes, carrots, and bell peppers, cooked in tomato sauce.",
+            "image": "../assets/images/chicken-afritada.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1 cup tomato sauce",
+                "1 potato (cubed)",
+                "1 carrot (sliced)",
+                "1 red bell pepper (chopped)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "1 cup water",
+                "1 tbsp fish sauce"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add chicken and cook until lightly browned.",
+                "Pour in tomato sauce and water. Simmer for 20 minutes.",
+                "Add potatoes, carrots, and bell pepper. Cook until vegetables are tender.",
+                "Season with fish sauce and serve hot."
+            ]
+        },                
+        {
+            "name": "Pininyahang Manok",
+            "description": "Chicken cooked with pineapple chunks, milk, and vegetables for a sweet and creamy dish.",
+            "image": "../assets/images/pininyahang-manok.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1 cup pineapple chunks (with juice)",
+                "1 cup evaporated milk or coconut milk",
+                "1 carrot (sliced)",
+                "1 bell pepper (sliced)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add chicken and cook until browned.",
+                "Pour in pineapple juice and simmer for 15 minutes.",
+                "Add milk, carrots, and bell pepper. Simmer until chicken is tender.",
+                "Stir in pineapple chunks and serve."
+            ]
+        },
+        {
+            "name": "Chicken Inasal",
+            "description": "Bacolod-style grilled chicken marinated in calamansi, garlic, vinegar, and annatto oil, then grilled to perfection.",
+            "image": "../assets/images/chicken-inasal.png",
+            "ingredients": [
+                "1 kg chicken (leg quarters or breast)",
+                "¼ cup calamansi juice",
+                "¼ cup vinegar",
+                "1 tbsp garlic (minced)",
+                "1 tbsp annatto oil",
+                "½ tsp salt and pepper"
+            ],
+            "instructions": [
+                "Marinate chicken in calamansi juice, vinegar, garlic, salt, and pepper for 1 hour.",
+                "Grill over medium heat, basting with annatto oil, until cooked through.",
+                "Serve with rice and soy sauce with calamansi."
+            ]
+        },
+        {
+            "name": "Chicken Curry",
+            "description": "A mild and creamy coconut milk-based curry with chicken, potatoes, carrots, and bell peppers.",
+            "image": "../assets/images/chicken-curry.png",
+            "ingredients": [
+                "1 kg chicken (cut into pieces)",
+                "1 cup coconut milk",
+                "1 tbsp curry powder",
+                "1 potato (cubed)",
+                "1 carrot (sliced)",
+                "1 bell pepper (sliced)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add chicken and cook until browned.",
+                "Stir in curry powder and pour in coconut milk. Simmer for 20 minutes.",
+                "Add potatoes, carrots, and bell pepper. Cook until tender.",
+                "Serve hot with rice."
+            ]
+        },
+        {
+            "name": "Chicken Sotanghon",
+            "description": "A warm, light soup with shredded chicken, sotanghon (glass noodles), and vegetables, perfect for cold days.",
+            "image": "../assets/images/chicken-sotanghon.png",
+            "ingredients": [
+                "500g chicken (shredded)",
+                "1 cup sotanghon (glass noodles)",
+                "1 carrot (julienned)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "4 cups chicken broth",
+                "1 tbsp fish sauce"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add chicken and cook for 5 minutes.",
+                "Pour in chicken broth and bring to a boil.",
+                "Add sotanghon noodles and carrots. Cook until noodles are soft.",
+                "Season with fish sauce and serve hot."
+            ]
+        }                                
+    ],
+    "beef" : [
+        {
+            "name": "Bulalo",
+            "description": "A rich and comforting Filipino soup made with beef shank, bone marrow, and vegetables.",
+            "images": "../assets/images/bulalo.png",
+            "ingredients": [
+                "1 kg beef shank (with bone marrow)",
+                "1 corn on the cob (cut into pieces)",
+                "2 potatoes (cubed)",
+                "1 onion (sliced)",
+                "1 bunch pechay or cabbage",
+                "1 liter water (or more, as needed)",
+                "1 tbsp fish sauce (optional)",
+                "Salt and pepper to taste"
+            ],
+            "instructions":[
+                "Boil Beef: In a large pot, bring water to a boil. Add beef shank and simmer for 2-3 hours until tender (or 30-40 minutes in a pressure cooker). Skim off impurities.",
+                "Add Flavor: Put in onion, corn, and fish sauce. Simmer for 30 minutes.",
+                "Cook Vegetables: Add potatoes and cook until soft.",
+                "Final Touch: Season with salt and pepper, then add pechay or cabbage. Let it cook for 5 minutes.",
+                "Serve Hot: Enjoy with rice and a dipping sauce of calamansi and fish sauce!"
+            ]
+        },
+        {
+            "name": "Beef Caldereta",
+            "description": "A rich, slow-cooked beef stew with tomato sauce, liver spread, potatoes, carrots, bell peppers, and sometimes cheese for added creaminess.",
+            "image": "../assets/images/beef_caldereta.png",
+            "ingredients": [
+                "1 kg beef (cubed)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "2 cups tomato sauce",
+                "2 tbsp liver spread",
+                "1 cup beef broth or water",
+                "1 potato (cubed)",
+                "1 carrot (sliced)",
+                "1 red bell pepper (sliced)",
+                "1 tbsp soy sauce",
+                "1 tsp sugar (optional)",
+                "2 tbsp cooking oil",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion in oil. Add beef and cook until browned.",
+                "Pour in tomato sauce, soy sauce, and beef broth. Simmer for 1 hour or until tender.",
+                "Stir in liver spread, potatoes, carrots, and bell pepper. Cook for another 15 minutes.",
+                "Season with salt, pepper, and sugar (if using). Serve hot."
+            ]
+        },
+        {
+            "name": "Kare Kare",
+            "description": "A peanut-based stew made with beef shank, oxtail, and vegetables like string beans, eggplant, and banana blossoms, served with bagoong (shrimp paste).",
+            "image": "../assets/images/kare_kare.png",
+            "ingredients": [
+                "1 kg beef shank or oxtail",
+                "2 tbsp peanut butter",
+                "1 cup ground toasted rice (or cornstarch slurry)",
+                "2 cups beef broth",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "1 eggplant (sliced)",
+                "1 bundle string beans (cut into 2-inch pieces)",
+                "1 banana blossom (optional)",
+                "2 tbsp annatto oil (for color)",
+                "Salt to taste",
+                "Bagoong (shrimp paste) for serving"
+            ],
+            "instructions": [
+                "Boil beef shank or oxtail until tender. Set aside the broth.",
+                "Sauté garlic and onion in annatto oil. Add peanut butter and ground rice.",
+                "Pour in beef broth and mix well. Simmer until thick.",
+                "Add beef and vegetables. Cook until veggies are tender.",
+                "Season with salt and serve with bagoong."
+            ]
+        },
+        {
+            "name": "Bistek Tagalog",
+            "description": "Thinly sliced beef marinated in soy sauce and calamansi, then pan-fried with caramelized onions for a savory-sour flavor.",
+            "image": "../assets/images/bistek_tagalog.png",
+            "ingredients": [
+                "500g beef sirloin (thinly sliced)",
+                "1 onion (sliced into rings)",
+                "¼ cup soy sauce",
+                "3 tbsp calamansi or lemon juice",
+                "½ tsp black pepper",
+                "3 cloves garlic (minced)",
+                "½ cup water",
+                "2 tbsp cooking oil"
+            ],
+            "instructions": [
+                "Marinate beef in soy sauce, calamansi juice, garlic, and pepper for 30 minutes.",
+                "Fry onion rings in oil until soft. Set aside.",
+                "In the same pan, cook marinated beef until browned. Add marinade and water. Simmer for 15 minutes.",
+                "Top with fried onions and serve."
+            ]
+        },
+        {
+            "name": "Beef Pares",
+            "description": "Tender beef braised in a sweet and savory soy-based sauce, served with garlic rice and a beef broth on the side.",
+            "image": "../assets/images/beef_pares.png",
+            "ingredients": [
+                "500g beef brisket (cubed)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "2 tbsp soy sauce",
+                "1 tbsp oyster sauce",
+                "1 tbsp sugar",
+                "1 tsp star anise",
+                "2 cups beef broth",
+                "1 tbsp cooking oil",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion. Add beef and cook until browned.",
+                "Pour in soy sauce, oyster sauce, sugar, and beef broth. Add star anise.",
+                "Simmer for 1 hour or until beef is tender. Season with salt and pepper.",
+                "Serve with garlic rice and beef soup on the side."
+            ]
+        },
+        {
+            "name": "Tapa",
+            "description": "Cured and marinated beef slices, usually pan-fried and served with garlic rice and fried egg (tapsilog).",
+            "image": "../assets/images/tapa.png",
+            "ingredients": [
+                "500g beef (thinly sliced)",
+                "1/4 cup soy sauce",
+                "2 tbsp calamansi or lemon juice",
+                "1 tbsp sugar",
+                "1/2 tsp black pepper",
+                "3 cloves garlic (minced)"
+            ],
+            "instructions": [
+                "Marinate beef in soy sauce, calamansi juice, sugar, garlic, and pepper for 1 hour (or overnight).",
+                "Pan-fry in oil until browned. Serve with garlic rice and fried egg (tapsilog)."
+            ]
+        },
+        {
+            "name": "Papaitan Baka",
+            "description": "An Ilocano dish made with beef innards, flavored with bile for a distinct bitter taste, balanced with calamansi and spices.",
+            "image": "../assets/images/papaitan-baka.png",
+            "ingredients": [
+                "500g beef tripe and innards (cleaned and boiled)",
+                "1 onion (chopped)",
+                "3 cloves garlic (minced)",
+                "2 tbsp vinegar",
+                "1 tbsp bile extract (for bitterness)",
+                "2 tbsp fish sauce",
+                "1 chili (optional)",
+                "4 cups water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Sauté garlic and onion, then add chopped beef innards.",
+                "Pour in vinegar and let it cook without stirring.",
+                "Add fish sauce, water, and bile extract. Simmer for 30 minutes.",
+                "Add chili (if using) and season to taste. Serve hot."
+            ]
+        },
+        {
+            "name": "Nilagang Baka",
+            "description": "A simple, comforting soup with beef ribs or brisket, potatoes, corn, cabbage, and pechay, simmered until the meat is tender.",
+            "image": "../assets/images/nilagang-baka.png",
+            "ingredients": [
+                "1 kg beef ribs or brisket",
+                "1 onion (quartered)",
+                "2 corn on the cob (cut into chunks)",
+                "2 potatoes (cubed)",
+                "1 cabbage (quartered)",
+                "1 bundle pechay (chopped)",
+                "8 cups water",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Boil beef with onion and water until tender (about 1.5 hours).",
+                "Add corn and potatoes. Simmer for 15 minutes.",
+                "Add cabbage and pechay. Cook for another 5 minutes.",
+                "Season with salt and pepper. Serve hot."
+            ]
+        },
+        {
+            "name": "Sinigang na Baka",
+            "description": "A tangy soup made with beef short ribs or brisket, simmered in a tamarind-based broth with tomatoes, radish, and string beans.",
+            "image": "../assets/images/sinigang-na-baka.png",
+            "ingredients": [
+                "1 kg beef short ribs or brisket",
+                "1 onion (quartered)",
+                "3 tomatoes (quartered)",
+                "1 radish (sliced)",
+                "1 bundle string beans (cut into 2-inch pieces)",
+                "1 cup kangkong (water spinach)",
+                "1 pack sinigang mix (or ½ cup tamarind puree)",
+                "8 cups water",
+                "Fish sauce to taste"
+            ],
+            "instructions": [
+                "Boil beef with onion, tomatoes, and water until tender (about 1.5 hours).",
+                "Add radish and string beans. Simmer for 10 minutes.",
+                "Stir in sinigang mix or tamarind puree. Add kangkong.",
+                "Season with fish sauce. Serve hot."
+            ]
+        }                
+    ],
+    "fish" : [
+        {
+            "name": "Sinigang na Salmon Belly",
+            "description": "A sour tamarind-based soup using rich and fatty salmon belly.",
+            "image": "../assets/images/sinigang-salmon-belly.png",
+            "ingredients": [
+                "500g Bangus Salmon Belly, cut into serving pieces",
+                "6 cups water",
+                "1 medium onion, sliced",
+                "2 medium tomatoes, quartered",
+                "1 pack sinigang mix or ½ cup fresh tamarind juice",
+                "1 medium radish (labanos), sliced thinly",
+                "10 pieces okra",
+                "1 cup kangkong (water spinach)",
+                "2 pieces green chili (siling haba)",
+                "1 tablespoon fish sauce (patis)",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "In a pot, bring water to a boil. Add onions and tomatoes; cook for 3 minutes.",
+                "Add sinigang mix or tamarind juice and stir well.",
+                "Add radish, okra, and green chili. Let it simmer for 5 minutes.",
+                "Gently add the fish and cook for 5–7 minutes or until cooked through.",
+                "Add kangkong leaves and season with fish sauce, salt, and pepper.",
+                "Serve hot with steamed rice."
+            ]
+        },        
+        {
+            "title": "Paksiw na Galunggong",
+            "description": "Round scad (galunggong) simmered in vinegar, garlic, and peppercorns.",
+            "image": "../assets/images/paksiw-na-galunggong.png",
+            "ingredients": [
+              "500g Galunggong (round scad) or Bangus (milkfish), cleaned",
+              "1 cup vinegar",
+              "1/2 cup water",
+              "1 teaspoon salt",
+              "1 teaspoon whole peppercorns",
+              "1 thumb-sized ginger, sliced",
+              "3 cloves garlic, crushed",
+              "1 medium onion, sliced",
+              "2 pieces green chili (siling haba)"
+            ],
+            "instructions": [
+              "Arrange the fish in a pot and add ginger, garlic, onions, and peppercorns.",
+              "Pour in vinegar and water, then add salt.",
+              "Bring to a boil without stirring, then reduce to low heat and let simmer for 10-15 minutes.",
+              "Add green chili and cook for another 2 minutes.",
+              "Serve with rice and enjoy."
+            ]
+        },
+        {
+            "title": "Escabecheng Lapu-Lapu",
+            "description": "Deep-fried grouper (lapu-lapu) or tilapia topped with a sweet and tangy vegetable sauce.",
+            "image": "../assets/images/escabecheng-lapu-lapu.png",
+            "ingredients": [
+              "1 whole Lapu-Lapu (grouper) or Tilapia, cleaned",
+              "1 teaspoon salt",
+              "1 teaspoon pepper",
+              "1/2 cup cornstarch (for coating)",
+              "1 cup cooking oil",
+              "1 tablespoon cooking oil",
+              "3 cloves garlic, minced",
+              "1 onion, sliced",
+              "1 bell pepper, sliced",
+              "1/4 cup vinegar",
+              "2 tablespoons sugar",
+              "1 tablespoon soy sauce",
+              "2 tablespoons tomato paste",
+              "1/2 cup water",
+              "1 tablespoon cornstarch (for thickening)"
+            ],
+            "instructions": [
+              "Rub the fish with salt and pepper, then coat lightly with cornstarch.",
+              "Heat oil in a pan and deep-fry the fish until golden brown. Drain and set aside.",
+              "In another pan, heat 1 tablespoon oil and sauté garlic, onions, and bell peppers.",
+              "Add vinegar, sugar, soy sauce, tomato paste, and water. Let it simmer for 2 minutes.",
+              "Pour the cornstarch slurry and stir until the sauce thickens.",
+              "Pour the sauce over the fried fish and serve."
+            ]
+        }, 
+        {
+            "title": "Rellenong Bangus",
+            "description": "Stuffed milkfish (bangus) filled with a mixture of its meat, vegetables, and spices.",
+            "image": "../assets/images/rellenong-bangus.png",
+            "ingredients": [
+              "1 whole Bangus (milkfish), scaled and cleaned",
+              "1 medium onion, minced",
+              "2 cloves garlic, minced",
+              "1 small carrot, minced",
+              "1 tablespoon soy sauce",
+              "1 egg, beaten",
+              "Salt and pepper to taste",
+              "1/2 cup flour (for dredging)"
+            ],
+            "instructions": [
+              "Carefully debone the Bangus, keeping the skin intact. Scrape out the flesh, then flake it.",
+              "Sauté onion, garlic, and carrot in a pan. Add the flaked fish meat and season with soy sauce, salt, and pepper.",
+              "Remove from heat and mix with the beaten egg. Stuff the mixture back into the fish skin.",
+              "Lightly coat with flour and fry until golden brown.",
+              "Slice and serve."
+            ]
+        },
+        {
+            "title": "Daing na Bangus",
+            "description": "A well-loved Filipino breakfast dish with crispy, tangy flavors.",
+            "image": "../assets/images/daing-na-bangus.png",
+            "ingredients": [
+              "1 whole Bangus (milkfish), butterflied",
+              "1/2 cup vinegar",
+              "3 cloves garlic, minced",
+              "1 teaspoon salt",
+              "1/2 teaspoon pepper",
+              "Cooking oil for frying"
+            ],
+            "instructions": [
+              "In a bowl, mix vinegar, garlic, salt, and pepper.",
+              "Marinate the Bangus in the mixture for at least 4 hours or overnight.",
+              "Heat oil in a pan and fry the fish until crispy.",
+              "Serve with rice and spiced vinegar."
+            ]
+        },
+        {
+            "title": "Ginataang Tilapia",
+            "description": "Tilapia cooked in coconut milk with chili and vegetables.",
+            "image": "../assets/images/ginataang-tilapia.png",
+            "ingredients": [
+              "500g Tilapia or Galunggong",
+              "1 can (400ml) coconut milk",
+              "1 medium onion, sliced",
+              "1 thumb-sized ginger, sliced",
+              "1 cup water",
+              "2 pieces green chili (siling haba)",
+              "1 cup pechay or malunggay leaves",
+              "Salt and pepper to taste"
+            ],
+            "instructions": [
+              "In a pot, sauté onion and ginger.",
+              "Add coconut milk and water, then bring to a gentle boil.",
+              "Add the fish and let it simmer for 10 minutes.",
+              "Add green chili and pechay/malunggay. Cook for another 3 minutes.",
+              "Season with salt and pepper, then serve."
+            ]
+        },
+        {
+            "title": "Inihaw na Bangus",
+            "description": "A flavorful and juicy grilled fish dish, often stuffed with fresh tomatoes and onions.",
+            "image": "../assets/images/inihaw-na-bangus.png",
+            "ingredients": [
+              "1 whole Bangus (milkfish), cleaned",
+              "1 medium tomato, diced",
+              "1 small onion, chopped",
+              "2 tablespoons calamansi juice",
+              "2 tablespoons soy sauce",
+              "Salt and pepper to taste"
+            ],
+            "instructions": [
+              "Mix tomatoes and onions and stuff inside the Bangus.",
+              "Rub the fish with calamansi juice, soy sauce, salt, and pepper.",
+              "Wrap in banana leaves or foil and grill for 6-8 minutes per side."
+            ]
+        },  
+        {
+            "title": "Fish Fillet",
+            "description": "A simple and crispy dish made with coated and fried fish fillets, perfect for dipping in tartar sauce or sweet and sour sauce.",
+            "image": "../assets/images/fish-fillet.png",
+            "ingredients": [
+              "500g cream dory or tilapia fillets",
+              "1 teaspoon salt",
+              "1 cup flour",
+              "1 cup cornstarch",
+              "1 egg, beaten",
+              "Oil for frying"
+            ],
+            "instructions": [
+              "Season fish with salt and pepper.",
+              "Dredge in flour, dip in egg, then coat with cornstarch.",
+              "Fry until golden brown. Serve with tartar sauce."
+            ]
+        }       
+    ],
+    "pasta" : [
+        {
+            "name": "Filipino-Style Carbonara",
+            "description": "A creamy, slightly sweet pasta dish made with ham, bacon, and evaporated milk instead of the traditional egg-based sauce.",
+            "images": "../assets/images/carbonara.png",
+            "ingredients": [
+                "250g spaghetti or fettuccine",
+                "200g bacon (chopped)",
+                "150g ham (chopped)",
+                "1 cup all-purpose cream",
+                "1 cup evaporated milk",
+                "½ cup grated cheese (Eden or Quickmelt)",
+                "3 cloves garlic (minced)",
+                "1 small onion (chopped)",
+                "1 tbsp butter",
+                "Salt and pepper to taste"
+            ],
+            "instructions":[
+                "Cook pasta according to package instructions, then drain.",
+                "Fry bacon until crispy, add ham, then set aside.",
+                "In the same pan, sauté garlic and onion in butter. Pour in evaporated milk and all-purpose cream.",
+                "Stir in cheese, season with salt and pepper, then let it thicken.",
+                "Add pasta to the sauce, mix well, then top with bacon and ham.",
+                "Serve hot with extra cheese. Enjoy!nara!"
+            ]
+        },
+        {
+            "name": "Filipino-Style Spaghetti",
+            "description": "A classic pasta dish made with a rich tomato-based sauce, ground meat, and herbs.",
+            "image": "../assets/images/spaghetti.png",
+            "ingredients": [
+                "250g spaghetti noodles",
+                "200g ground pork or beef",
+                "3 pcs hotdogs (sliced)",
+                "1 small onion (chopped)",
+                "3 cloves garlic (minced)",
+                "1 ½ cups banana ketchup",
+                "1 cup tomato sauce",
+                "½ cup condensed milk (optional, for sweetness)",
+                "½ cup grated cheese (Eden or Quickmelt)",
+                "1 tbsp cooking oil",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Cook Pasta: Boil spaghetti noodles according to package instructions. Drain and set aside.",
+                "Prepare the Sauce: Heat oil in a pan, sauté garlic and onion. Add ground meat and cook until browned.",
+                "Add Flavor: Stir in hotdogs, tomato sauce, banana ketchup, and condensed milk. Simmer for 10-15 minutes.",
+                "Season & Finish: Add salt, pepper, and half of the cheese. Mix well.",
+                "Serve Hot: Pour sauce over spaghetti, top with more cheese, and enjoy!"
+            ]
+        }
+        
+    ],
+    "dessert" : [
+        {
+            "name": "Graham Bar",
+            "description": "A no-bake Filipino dessert made with layers of whole Graham crackers, sweetened cream, and fresh mangoes.",
+            "images": "../assets/images/graham-bar.png",
+            "ingredients": [
+                "1 pack whole Graham crackers",
+                "1 cup all-purpose cream (chilled)",
+                "½ cup condensed milk",
+                "½ cup powdered sugar (optional, for extra sweetness)",
+                "2 ripe mangoes (sliced)"
+            ],
+            "instructions":[
+                "Prepare the Cream Mixture: In a bowl, whip the chilled all-purpose cream with condensed milk and powdered sugar until smooth.",
+                "Layer the Crackers: In a rectangular dish, place a layer of whole Graham crackers at the bottom.",
+                "Add Cream & Mangoes: Spread an even layer of the cream mixture over the crackers, then top with sliced mangoes.",
+                "Repeat Layers: Add another layer of Graham crackers, followed by more cream and mangoes. Repeat until you reach your desired thickness, ending with mangoes on top.",
+                "Chill & Set: Cover and refrigerate for at least 4 hours or overnight to let the crackers soften.",
+                "Slice & Serve: Cut into bars and enjoy this creamy, fruity dessert!"
+            ]
+        }
+    ]
+}
