@@ -51,6 +51,7 @@ function updateRecipeHTML(recipes) {
               src="${recipe.images}" 
               alt="${recipe.name}"
               style="cursor: pointer;"
+              data-index="${index}"
             >
             <span class="Home__favorite-container">
               <img 
@@ -69,12 +70,21 @@ function updateRecipeHTML(recipes) {
       `;
     });
 
+    
+  // Add event listener to images for opening the modal
+  document.querySelectorAll(".Home__main-recipe-image").forEach((image, index) => {
+    image.addEventListener("click", () => {
+        showRecipeModal(recipes[index]);
+    });
+});
+
+
 
   // interactive of favorite icon (heart icon)
   const favoriteIcon = document.querySelectorAll(".Home__favorite-icon");
   favoriteIcon.forEach( icon =>{
     icon.addEventListener("click", () =>{
-      
+
       // Add zoom effect class
       icon.classList.add("zoom-effect");
 
@@ -97,6 +107,58 @@ function updateRecipeHTML(recipes) {
   })
 
 }
+
+
+// modal
+
+// Show recipe modal with details
+function showRecipeModal(recipe) {
+  const modal = document.querySelector(".Recipes__overlay-modal");
+  const modalImage = modal.querySelector(".Recipes__modal-left-container img");
+  const modalTitle = modal.querySelector(".Recipes__modal-left-container h1");
+  const modalDescription = modal.querySelector(".Recipes__modal-left-container p");
+  const ingredientsList = modal.querySelector(".Recipes__modal-ingredients-container ul");
+  const instructionsList = modal.querySelector(".Recipes__modal-ingredients-container ol");
+  
+  // Update modal content
+  modalImage.src = recipe.images;
+  modalImage.alt = recipe.name;
+  modalTitle.textContent = recipe.name;
+  modalDescription.textContent = recipe.description;
+  
+  // Update ingredients list
+  ingredientsList.innerHTML = "";
+  recipe.ingredients.forEach(ingredient => {
+      const li = document.createElement("li");
+      li.textContent = ingredient;
+      ingredientsList.appendChild(li);
+  });
+  
+  // Update instructions list
+  instructionsList.innerHTML = "";
+  recipe.instructions.forEach(instruction => {
+      const li = document.createElement("li");
+      li.textContent = instruction;
+      instructionsList.appendChild(li);
+  });
+  
+  // Show the modal
+  modal.style.display = "flex";
+
+  // Close modal when clicking the close button
+  document.querySelector(".Recipes__modal-close-icon").addEventListener("click", () => {
+      modal.style.display = "none";
+  });
+
+  // Close modal when clicking outside the modal content
+  // modal.addEventListener("click", (event) => {
+  //   if (event.target === modal) {
+  //       modal.style.display = "none";
+  //   }
+  // });
+}
+
+
   
 
 // ALTERNATIVE TO NG updateRecipeHTML() ETO NASA BABA
