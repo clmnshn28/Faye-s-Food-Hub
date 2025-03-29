@@ -1,0 +1,16 @@
+{
+    "images": [
+      { "src": "../assets/images/bulalo.png", "alt": "Bulalo" },
+      { "src": "../assets/images/beef-pares.png", "alt": "Beef Pares" },
+      { "src": "../assets/images/bopis.png", "alt": "Bopis" },
+      { "src": "../assets/images/chicken-cordon-bleu.png", "alt": "Chicken Cordon Bleu" },
+      { "src": "../assets/images/crispy-pata.png", "alt": "Crispy Pata" },
+      { "src": "../assets/images/fish-fillet.png", "alt": "Fish Fillet" },
+      { "src": "../assets/images/escabecheng-lapu-lapu.png", "alt": "Escabecheng Lapu-Lapu" },
+      { "src": "../assets/images/beef-caldereta.png", "alt": "Beef Caldereta" },
+      { "src": "../assets/images/carbonara.png", "alt": "Carbonara" },
+      { "src": "../assets/images/chicken-adobo.png", "alt": "Chicken Adobo" },
+      { "src": "../assets/images/kare-kare.png", "alt": "Kare-Kare" }
+    ]
+  }
+  

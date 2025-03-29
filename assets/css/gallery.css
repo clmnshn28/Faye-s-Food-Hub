@@ -58,30 +58,32 @@
 }
 
 .outer {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.inner{
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
     position: relative;
-    flex: 0 0 auto;
-    width: 250px;
+}
+
+.inner {
+    display: flex;
+    animation: scroll 90s linear infinite; /* Adjust speed as needed */
+}
+
+.inner img {
+    width: 250px; /* Match your current image size */
     height: 400px;
-    margin-right: 1rem; 
-}
-
-.slide{
-    width: 100%;
-    height: 100%;
-    /* border: 10px solid #fff; */
-    scroll-snap-align: center;
-
-}
-
-.slide img{
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    margin-right: 1rem;
+}
+
+/* Infinite scrolling animation */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 
